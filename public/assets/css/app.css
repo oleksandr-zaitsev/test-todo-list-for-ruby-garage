@@ -1,0 +1,59 @@
+html, body, #background-div {
+    height: 100%;
+    width: 100%;
+}
+#progress-status {
+    z-index: 9999;
+    position: fixed;
+    top: 0
+}
+#background-div {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 251, 245, 0.8),
+        rgba(255, 231, 50, 0.8)
+    );
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+#progress-status{
+    width: 100%;
+    height: 10px;
+}
+.danger-highlighter {
+    border-color: rgba(239, 0, 0, 0.80) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(239, 0, 0, 0.60) !important;
+    outline: 0 none !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.cursor-drag-hand {
+    cursor: move;
+}
+.sm-cell {
+    width: 20px;
+    text-align: center;
+}
+.break-word {
+    word-break: break-all;
+}
+#loading-container {
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+#loading-container img {
+    width: 100px;
+    height: 100px;
+}
